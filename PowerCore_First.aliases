@@ -1,9 +1,0 @@
-[My Computer]
-My Computer = "172.25.99.132"
-
-[PowerCore-Master]
-PowerCore-Master = "192.168.43.122"
-
-[PowerCore-Servant]
-PowerCore-Servant = "192.168.43.109"
-
