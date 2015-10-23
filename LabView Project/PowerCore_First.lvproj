@@ -41,7 +41,7 @@
 	</Item>
 	<Item Name="PowerCore-Master" Type="RT myRIO">
 		<Property Name="alias.name" Type="Str">PowerCore-Master</Property>
-		<Property Name="alias.value" Type="Str">192.168.43.122</Property>
+		<Property Name="alias.value" Type="Str">192.168.1.131</Property>
 		<Property Name="CCSymbols" Type="Str">TARGET_TYPE,RT;OS,Linux;CPU,ARM;DeviceCode,762F;FPGAPersonality,myRIO_FP_Custom;</Property>
 		<Property Name="crio.ControllerPID" Type="Str">762F</Property>
 		<Property Name="host.ResponsivenessCheckEnabled" Type="Bool">true</Property>
@@ -1575,6 +1575,7 @@ AddOutputFilter chunkFilter
 		</Item>
 		<Item Name="LightSensor.vi" Type="VI" URL="../myRIO Vishay TEMT6000 Ambient Light Sensor/LightSensor.vi"/>
 		<Item Name="SharedVariableMaster.vi" Type="VI" URL="../SharedVariableMaster.vi"/>
+		<Item Name="TemperatureSensor.vi" Type="VI" URL="../myRIO Temperature Sensor/TemperatureSensor.vi"/>
 		<Item Name="WebMessaging_Master.vi" Type="VI" URL="../WebMessaging_Master.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -1689,12 +1690,13 @@ AddOutputFilter chunkFilter
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Voltage to illuminance.vi" Type="VI" URL="../myRIO Vishay TEMT6000 Ambient Light Sensor/Sub VIs/Voltage to illuminance.vi"/>
+			<Item Name="Voltage to temperature.vi" Type="VI" URL="../myRIO Temperature Sensor/Sub VIs/Voltage to temperature.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
 	<Item Name="PowerCore-Servant" Type="RT myRIO">
 		<Property Name="alias.name" Type="Str">PowerCore-Servant</Property>
-		<Property Name="alias.value" Type="Str">192.168.43.109</Property>
+		<Property Name="alias.value" Type="Str">192.168.1.130</Property>
 		<Property Name="CCSymbols" Type="Str">TARGET_TYPE,RT;OS,Linux;CPU,ARM;DeviceCode,762F;FPGAPersonality,myRIO_FP_Custom;</Property>
 		<Property Name="crio.ControllerPID" Type="Str">762F</Property>
 		<Property Name="host.ResponsivenessCheckEnabled" Type="Bool">true</Property>
