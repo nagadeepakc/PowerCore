@@ -117,7 +117,6 @@ AddOutputFilter chunkFilter
 		<Property Name="target.WebServer.ViAccess" Type="Str">+*</Property>
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
-		<Item Name="Support VIs" Type="Folder"/>
 		<Item Name="Chassis" Type="myRIO Chassis">
 			<Property Name="crio.ProgrammingMode" Type="Str">fpga</Property>
 			<Property Name="crio.ResourceID" Type="Str">RIO0</Property>
@@ -1573,6 +1572,7 @@ AddOutputFilter chunkFilter
 				<Item Name="Build Specifications" Type="Build"/>
 			</Item>
 		</Item>
+		<Item Name="HumiditySensor.vi" Type="VI" URL="../myRIO Humidity Sensor/HumiditySensor.vi"/>
 		<Item Name="LightSensor.vi" Type="VI" URL="../myRIO Vishay TEMT6000 Ambient Light Sensor/LightSensor.vi"/>
 		<Item Name="SharedVariableMaster.vi" Type="VI" URL="../SharedVariableMaster.vi"/>
 		<Item Name="TemperatureSensor.vi" Type="VI" URL="../myRIO Temperature Sensor/TemperatureSensor.vi"/>
@@ -1689,6 +1689,7 @@ AddOutputFilter chunkFilter
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Voltage to humidity.vi" Type="VI" URL="../myRIO Humidity Sensor/Sub VIs/Voltage to humidity.vi"/>
 			<Item Name="Voltage to illuminance.vi" Type="VI" URL="../myRIO Vishay TEMT6000 Ambient Light Sensor/Sub VIs/Voltage to illuminance.vi"/>
 			<Item Name="Voltage to temperature.vi" Type="VI" URL="../myRIO Temperature Sensor/Sub VIs/Voltage to temperature.vi"/>
 		</Item>
