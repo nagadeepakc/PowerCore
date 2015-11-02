@@ -35,6 +35,7 @@
 			</Item>
 			<Item Name="myRIO Project Documentation.html" Type="Document" URL="../documentation/myRIO Project Documentation.html"/>
 		</Item>
+		<Item Name="Main_ProducerConsumer.vi" Type="VI" URL="../Main_ProducerConsumer.vi"/>
 		<Item Name="Shared Variable Library Master.lvlib" Type="Library" URL="../Shared Variable Library Master.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
@@ -1574,6 +1575,7 @@ AddOutputFilter chunkFilter
 		</Item>
 		<Item Name="HumiditySensor.vi" Type="VI" URL="../myRIO Humidity Sensor/HumiditySensor.vi"/>
 		<Item Name="LightSensor.vi" Type="VI" URL="../myRIO Vishay TEMT6000 Ambient Light Sensor/LightSensor.vi"/>
+		<Item Name="Main_ProducerConsumer.vi" Type="VI" URL="../Main_ProducerConsumer.vi"/>
 		<Item Name="SharedVariableMaster.vi" Type="VI" URL="../SharedVariableMaster.vi"/>
 		<Item Name="TemperatureSensor.vi" Type="VI" URL="../myRIO Temperature Sensor/TemperatureSensor.vi"/>
 		<Item Name="WebMessaging_Master.vi" Type="VI" URL="../WebMessaging_Master.vi"/>
