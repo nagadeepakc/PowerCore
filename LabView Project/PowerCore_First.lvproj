@@ -179,7 +179,7 @@
 	</Item>
 	<Item Name="PowerCore-Master" Type="RT myRIO">
 		<Property Name="alias.name" Type="Str">PowerCore-Master</Property>
-		<Property Name="alias.value" Type="Str">192.168.1.122</Property>
+		<Property Name="alias.value" Type="Str">192.168.43.122</Property>
 		<Property Name="CCSymbols" Type="Str">TARGET_TYPE,RT;OS,Linux;CPU,ARM;DeviceCode,762F;FPGAPersonality,myRIO_FP_Custom;</Property>
 		<Property Name="crio.ControllerPID" Type="Str">762F</Property>
 		<Property Name="host.ResponsivenessCheckEnabled" Type="Bool">true</Property>
@@ -1856,7 +1856,7 @@ AddOutputFilter chunkFilter
 	</Item>
 	<Item Name="PowerCore-Servant" Type="RT myRIO">
 		<Property Name="alias.name" Type="Str">PowerCore-Servant</Property>
-		<Property Name="alias.value" Type="Str">192.168.1.123</Property>
+		<Property Name="alias.value" Type="Str">192.168.43.109</Property>
 		<Property Name="CCSymbols" Type="Str">TARGET_TYPE,RT;OS,Linux;CPU,ARM;DeviceCode,762F;FPGAPersonality,myRIO_FP_Custom;</Property>
 		<Property Name="crio.ControllerPID" Type="Str">762F</Property>
 		<Property Name="host.ResponsivenessCheckEnabled" Type="Bool">true</Property>
