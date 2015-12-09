@@ -163,12 +163,12 @@
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="ButtonStates.vi" Type="VI" URL="../ButtonStates.vi"/>
 			<Item Name="HumiditySensor.vi" Type="VI" URL="../myRIO Humidity Sensor/HumiditySensor.vi"/>
 			<Item Name="LightSensor.vi" Type="VI" URL="../myRIO Vishay TEMT6000 Ambient Light Sensor/LightSensor.vi"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="OutletPostRequest.vi" Type="VI" URL="../OutletPostRequest.vi"/>
 			<Item Name="TemperatureSensor.vi" Type="VI" URL="../myRIO Temperature Sensor/TemperatureSensor.vi"/>
 			<Item Name="Voltage to humidity.vi" Type="VI" URL="../myRIO Humidity Sensor/Sub VIs/Voltage to humidity.vi"/>
 			<Item Name="Voltage to illuminance.vi" Type="VI" URL="../myRIO Vishay TEMT6000 Ambient Light Sensor/Sub VIs/Voltage to illuminance.vi"/>
@@ -1712,8 +1712,10 @@ AddOutputFilter chunkFilter
 			</Item>
 		</Item>
 		<Item Name="HumiditySensor.vi" Type="VI" URL="../myRIO Humidity Sensor/HumiditySensor.vi"/>
+		<Item Name="LEDTesting.vi" Type="VI" URL="../LEDTesting.vi"/>
 		<Item Name="LightSensor.vi" Type="VI" URL="../myRIO Vishay TEMT6000 Ambient Light Sensor/LightSensor.vi"/>
 		<Item Name="Main_ProducerConsumer.vi" Type="VI" URL="../Main_ProducerConsumer.vi"/>
+		<Item Name="OutletPostRequest.vi" Type="VI" URL="../OutletPostRequest.vi"/>
 		<Item Name="SharedVariableMaster.vi" Type="VI" URL="../SharedVariableMaster.vi"/>
 		<Item Name="TemperatureSensor.vi" Type="VI" URL="../myRIO Temperature Sensor/TemperatureSensor.vi"/>
 		<Item Name="WebMessaging_Master.vi" Type="VI" URL="../WebMessaging_Master.vi"/>
@@ -3386,6 +3388,7 @@ AddOutputFilter chunkFilter
 			</Item>
 		</Item>
 		<Item Name="GenerateSignal.vi" Type="VI" URL="../GenerateSignal.vi"/>
+		<Item Name="SharedVariableServant Testing.vi" Type="VI" URL="../SharedVariableServant Testing.vi"/>
 		<Item Name="SharedVariableServant.vi" Type="VI" URL="../SharedVariableServant.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
